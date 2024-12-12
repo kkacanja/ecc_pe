@@ -6,10 +6,10 @@ export LAL_DATA_PATH=/home/ksoni01/lalsuite/lalsuite-extra/data/lalsimulation/
 export OMP_NUM_THREADS=1
 
 pycbc_inference \
---config-file /home/kkacanja/ecc_gw190817/pe/gw200105/seob/0.3e_seob_sampling.ini \
+--config-file /home/kkacanja/ecc_pe/gw230529/seob/config.ini \
 --nprocesses 64 \
 --processing-scheme mkl \
---output-file /home/kkacanja/ecc_gw190817/pe/gw200105/seob/result_seob_0.3e_sampling.hdf \
+--output-file /home/kkacanja/ecc_pe/gw230529/seob/result.hdf \
 --seed 190814 \
 --force \
 --verbose 
