@@ -1,0 +1,19 @@
+universe = vanilla
+executable = /home/kkacanja/ecc_gw190817/pe/seob/0.3e_seob_sampling_full.sh
+getenv = True
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+output =  /home/kkacanja/ecc_gw190817/pe/logs/0.3e_seob_sampling_full.out
+error =  /home/kkacanja/ecc_gw190817/pe/logs/0.3e_seob_sampling_full.err
+log =  /home/kkacanja/ecc_gw190817/pe/logs/0.3e_seob_sampling_full.log
+
+# Request resources
+request_memory = 30 GB
+request_cpus = 64
+
+batch_name = 0.3e_seob_sampling_full
+# Queue the job
+queue
+
+
