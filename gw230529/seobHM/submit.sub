@@ -1,0 +1,19 @@
+universe = vanilla
+executable = /home/kkacanja/ecc_pe/gw230529/seobHM/run.sh
+getenv = True
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+output =  /home/kkacanja/ecc_pe/gw230529/logs/seobHM_gw230529.out
+error =  /home/kkacanja/ecc_pe/gw230529/logs/seobHM_gw230529.err
+log =  /home/kkacanja/ecc_pe/gw230529/logs/seobHM_gw230529.log
+
+# Request resources
+request_memory = 30 GB
+request_cpus = 64
+
+batch_name = seobHM_gw230529
+# Queue the job
+queue
+
+
