@@ -12,7 +12,7 @@ log =  /home/kkacanja/ecc_pe/gw200115/logs/seobHM_gw200115.log
 request_memory = 30 GB
 request_cpus = 64
 
-batch_name = seobHM_gw200115
+batch_name = seob_gw200115
 # Queue the job
 queue
 
