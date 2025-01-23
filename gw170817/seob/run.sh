@@ -9,7 +9,7 @@ pycbc_inference \
 --config-file /home/kkacanja/ecc_pe/gw170817/seob/config.ini \
 --nprocesses 64 \
 --processing-scheme mkl \
---output-file /home/kkacanja/ecc_pe/gw170817/seob/result.hdf \
+--output-file /home/kkacanja/ecc_pe/gw170817/seob/result_2.hdf \
 --seed 190814 \
 --force \
 --verbose 
