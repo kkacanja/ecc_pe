@@ -1,39 +1,24 @@
 GW190814 TeobHM
 
 
-gw200105/teobHM/
-gw200105/teob/19ff
-gw200105/teob/x1
-gw200105/teob/30f
-
-
-gw200115/teobHM/
-gw200115/seobHM/
-
-
-
-
-
-
-
-
-
-
-L1: flow 30
-
-GW190814 Teob
-GW190814 Seob
-
-GW200105 Seob
-
 GW200115 Teob
-GW200115 Seob
-#GW200115 SeobHM
+GW200115 TeobHM
 
-GW230529 Seob
 GW230529 Teob
-#GW230529 TeobHM
+GW230529 TeobHM
+
+GW170817 Teob
+GW170817 Seob
 
 GW190425 Teob
 GW190425 Seob
-GW190425 SeobHM
+
+GW200105 Teob 19ff
+GW200105 Teob 21f
+GW200105 Teob 30f
+GW200105 Teob x1
+GW200105 Teob L1
+GW200105 Teob 0.3 no_marg
+
+GW200105 Seob 19f
+GW200105 Seob 0.3 no_marg
