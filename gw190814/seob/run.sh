@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e
 source /home/kkacanja/miniconda3/etc/profile.d/conda.sh
-#conda activate /home/kkacanja/miniconda3/envs/SEOBNRv5E
-conda activate /home/kkacanja/miniconda3/envs/seob_test
+conda activate /home/kkacanja/miniconda3/envs/SEOBNRv5E
+#conda activate /home/kkacanja/miniconda3/envs/seob_test
 export LAL_DATA_PATH=/home/ksoni01/lalsuite/lalsuite-extra/data/lalsimulation/
 export OMP_NUM_THREADS=1
 

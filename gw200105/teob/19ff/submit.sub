@@ -12,7 +12,7 @@ log =  /home/kkacanja/ecc_pe/gw200105/logs/teob_19ff_gw200105.log
 request_memory = 50 GB
 request_cpus = 64
 
-batch_name = teob_19ff_gw200105
+batch_name = teob_19ff_gw200105_new_sampling_method
 # Queue the job
 queue
 

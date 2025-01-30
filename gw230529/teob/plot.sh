@@ -1,4 +1,5 @@
-pycbc_inference_plot_posterior --input-file ./result.hdf \
---output-file /home/kkacanja/public_html/ecc_pe/gw230529_posteriors_teob.png \
+pycbc_inference_plot_posterior --input-file ./result.hdf.bkup \
+--output-file /home/kkacanja/public_html/ecc_pe/plots/gw230529/gw230529_posteriors_teob.png \
 --parameters inclination mchirp q spin1z spin2z eccentricity anomaly \
---z-arg snr --vmin 11.3 --vmax 11.7 \
+--z-arg snr \
+#--vmin 11.3 --vmax 11.7 \

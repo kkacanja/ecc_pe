@@ -9,7 +9,7 @@ pycbc_inference \
 --config-file /home/kkacanja/ecc_pe/gw230529/teob/config.ini \
 --nprocesses 64 \
 --processing-scheme mkl \
---output-file /home/kkacanja/ecc_pe/gw230529/teob/result_16384_sample_rate.hdf \
+--output-file /home/kkacanja/ecc_pe/gw230529/teob/result.hdf \
 --seed 190814 \
 --force \
 --verbose 

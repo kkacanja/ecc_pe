@@ -12,4 +12,4 @@ pycbc_inference \
 --output-file /home/kkacanja/ecc_pe/gw200105/teob/21f/result.hdf \
 --seed 190814 \
 --force \
---verbose 
+--verbose \

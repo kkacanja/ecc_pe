@@ -1,5 +1,5 @@
 universe = vanilla
-executable = /home/kkacanja/ecc_pe/gw200105/seobHM/run.sh
+executable = /home/kkacanja/ecc_pe/gw200105/seobHM/0.3/final/run.sh
 getenv = True
 should_transfer_files = YES
 when_to_transfer_output = ON_EXIT
@@ -12,7 +12,7 @@ log =  /home/kkacanja/ecc_pe/gw200105/logs/seobHM_gw200105.log
 request_memory = 30 GB
 request_cpus = 64
 
-batch_name = seobHM_gw200105
+batch_name = seobHM_gw200105_f
 # Queue the job
 queue
 

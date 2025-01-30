@@ -6,7 +6,7 @@ export LAL_DATA_PATH=/home/ksoni01/lalsuite/lalsuite-extra/data/lalsimulation/
 export OMP_NUM_THREADS=1
 
 pycbc_inference \
---config-file /home/kkacanja/ecc_pe/gw200105/teob/x1/config.ini \
+--config-file /home/kkacanja/ecc_pe/gw200105/teob/x1/config_5000live.ini \
 --nprocesses 64 \
 --processing-scheme mkl \
 --output-file /home/kkacanja/ecc_pe/gw200105/teob/x1/result.hdf \
