@@ -1,0 +1,11 @@
+pycbc_inference_plot_posterior --input-file ./result_norwalk.hdf.bkup \
+--output-file /home/kkacanja/public_html/ecc_pe/plots/gw230529/gw230529_posteriors_seob_nowalk.png \
+--parameters inclination mchirp q spin1z spin2z eccentricity rel_anomaly \
+--z-arg snr \
+#--vmin 11.3 --vmax 11.7 \
+
+
+#pycbc_inference_plot_posterior --input-file ./result.hdf \
+#--output-file /home/kkacanja/public_html/ecc_pe/plots/gw230529/gw230529_posteriors_seob_rwalk.png \
+#--parameters inclination mchirp q spin1z spin2z eccentricity rel_anomaly \
+#--z-arg snr \
