@@ -1,0 +1,19 @@
+universe = vanilla
+executable = /home/kkacanja/ecc_pe/gw190814/seob/SMALL/1/run.sh
+getenv = True
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+
+output =  /home/kkacanja/ecc_pe/gw190814/logs/seob_gw190814_rwalk_1.out
+error =  /home/kkacanja/ecc_pe/gw190814/logs/seob_f_gw190814_rwalk_1.err
+log =  /home/kkacanja/ecc_pe/gw190814/logs/seob_f_gw190814_rwalk_1.log
+
+Requirements = ! regexp("u20node", TARGET.name)
+
+request_memory = 20 GB
+request_cpus = 32
+
+batch_name = seob_gw190814_3workflow
+queue
+
+
