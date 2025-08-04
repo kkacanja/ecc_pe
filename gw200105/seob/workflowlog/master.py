@@ -3,7 +3,7 @@ import shutil
 
 # Parameters
 step = 0.005
-ecc_min = 0.0001
+ecc_min = 0.0 #NOTE: manually edit runs/e_0p000 config to set bound to 0.0001
 ecc_max = 0.2
 
 # Paths

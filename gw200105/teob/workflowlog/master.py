@@ -3,7 +3,7 @@ import shutil
 
 # Parameters
 step = 0.005
-ecc_min = 0.0001
+ecc_min = 0.0 #NOTE: manually edit e_0p000 config to set bound to 0.0001
 ecc_max = 0.2
 
 # Paths
@@ -13,8 +13,8 @@ base_submit_path = "base/submit.sub"
 output_parent_dir = "runs"
 
 # Absolute paths (adjust as needed)
-base_abs_dir = "/home/kkacanja/ecc_pe/gw200105/teob/workflowlog/runs"
-logs_dir = "/home/kkacanja/ecc_pe/gw200105/teob/workflowlog/logs"
+base_abs_dir = "/home/kkacanja/git_release/ecc_pe/gw200105/teob/workflowlog/runs"
+logs_dir = "/home/kkacanja/git_release/ecc_pe/gw200105/teob/workflowlog/logs"
 
 # Number of bins
 num_bins = int((ecc_max - ecc_min) / step)
