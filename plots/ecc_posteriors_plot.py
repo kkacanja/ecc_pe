@@ -46,7 +46,7 @@ waveform_files = {
     },
 }
 
-output_dir = "/home/kkacanja/public_html/ecc_pe/plots/"
+output_dir = "/home/kkacanjaecc_pe/plots/"
 os.makedirs(output_dir, exist_ok=True)
 
 model_colors = {
