@@ -1,7 +1,7 @@
 # Eccentricity signatures in LIGO-Virgo-KAGRA's BNS and NSBH binaries
 Keisi Kacanja<sup>1</sup>, Kanchan Soni<sup>1</sup>, Alexander H. Nitz<sup>1</sup>
 
-<sub>1.Department of Physics, Syracuse University, Syracuse, NY 13244, USA</sub>  
+<sub>1. Department of Physics, Syracuse University, Crouse Dr, Syracuse, NY 13210</sub>  
 
 ## Introduction 
 This project focuses on measuring the orbital eccentricity of low-mass binary systems using gravitational wave data from LIGO and Virgo’s first four observing runs. We analyze six events with a new eccentric waveform model, SEOBNRv5EHM, and compare results to the existing TEOBResumS-Dali model, including the first eccentricity constraints for GW190814. By incorporating higher-order modes and optimizing Bayesian inference through efficient marginalization and parallel sampling, we reduce computational costs. Our results identify significant eccentricity in GW200105, while other events show low eccentricity. We also highlight challenges in Bayesian inference for eccentric, multi-modal parameter spaces related to sampling and waveform systematics.
